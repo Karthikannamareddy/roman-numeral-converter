@@ -1,6 +1,5 @@
 function convertToRoman(num) {
-//Break the number into Thousands, Hundreds, Tens and Ones, and write down each in turn.
-//get the digits
+
 const numStr=num.toString();
 const len=numStr.length;
 let Thousands=0,Hundreds= 0,Tens= 0;
